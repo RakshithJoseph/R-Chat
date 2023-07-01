@@ -37,7 +37,7 @@ const Signup = () => {
       data.append("upload_preset", "rchat_app");
       data.append("withcredentials", "false");
       data.append("cloud_name", "dn3utjdhp");
-      fetch("https://api.cloudinary.com/v1_1/dn3utjdhp/image/upload", {
+      fetch("*********", {
         method: "post",
         body: data,
       })
